@@ -12,4 +12,4 @@ with open(os.path.join(package, "__init__.py"), "r") as file:
 metadata = {mdk: eval("__" + mdk + "__") for mdk in metadata_keys}
 
 
-setup(packages=find_packages(), **metadata, name="py_html")
+setup(packages=find_packages(), **metadata, name="py_latex")
